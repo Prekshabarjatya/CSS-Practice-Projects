@@ -1,4 +1,4 @@
-# README: CSS Good Practices Learned from the Cafe Menu Project
+Learnings from the Cafe Menu Project
 
 This project was a simple cafe menu built with basic HTML elements and mostly styled using CSS.
 
