@@ -37,4 +37,11 @@ This project reinforced my understanding of how CSS pseudo-selectors can be used
 
 ## Author
 **Preksha** — Front-end learner focused on combining algorithmic thinking with creative UI/UX design.
+<img width="1901" height="915" alt="image" src="https://github.com/user-attachments/assets/d8c1d93d-f384-4e43-a613-2747e733e05d" />
+
+<img width="1918" height="935" alt="image" src="https://github.com/user-attachments/assets/72f9c99c-7cc7-473e-9a02-b88a641af7ea" />
+
+<img width="1917" height="914" alt="image" src="https://github.com/user-attachments/assets/ed3725db-edb5-4630-9b1c-be1ae6fae05a" />
+
+<img width="1892" height="350" alt="image" src="https://github.com/user-attachments/assets/5386c7fe-4df7-45b5-8f11-cab46412a46c" />
 
