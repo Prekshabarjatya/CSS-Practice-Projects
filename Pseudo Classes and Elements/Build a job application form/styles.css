@@ -1,0 +1,79 @@
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 2em;
+}
+
+form {
+  text-align: left;
+}
+
+input, textarea, select {
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  transition: border-color 0.3s, background 0.3s;
+  outline: none;
+  margin-bottom: 1em;
+  display: block;
+  width: 100%;
+}
+
+input:focus, textarea:focus {
+  border-color: blue;
+  background: #eef6ff;
+}
+:is(input:invalid, select:invalid, textarea:invalid) {
+  border-color: red;
+  background: #fff5f5;
+}
+:is(input:valid, select:valid, textarea:valid) {
+  border-color: green;
+  background: #f0ffec;
+}
+button {
+  border-radius: 8px;
+  border: none;
+  background: #2196f3;
+  color: #fff;
+  padding: 0.6em 1.4em;
+  font-size: 1em;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 1em;
+}
+button:hover {
+  background-color: lightblue;
+  color: #1976d2;
+}
+input:first-of-type {
+  border-radius: 4px;
+}
+.radio-group {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.8em;
+  margin-bottom: 1em;
+  border: none;
+  padding: 0;
+}
+.radio-group legend {
+  margin-right: 1em;
+  font-size: 1em;
+  color: #333;
+}
+.radio-group input[type="radio"] {
+  margin: 0;
+}
+.radio-group input[type="radio"]:checked + label {
+  color: green;
+  font-weight: 600;
+}
+.radio-group label {
+  margin-right: 0.6em;
+  font-size: 1em;
+  cursor: pointer;
+}
