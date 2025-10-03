@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  height:100%;
+  width:100%;
+  font-size:16px;
+  text-align:center;
+}
+body{
+  margin: 0px auto;
+  padding:50px 0px;
+  width:80vw;
+  min-height:calc(100vh - 100px);
+}
+hr{
+  width:0.5%; 
+  border: 2px solid black;
+}
+section{
+  width:40%;
+  margin:20px;
+}
+ul{
+  list-style:none;
+}
+main{
+  display:flex;
+  justify-content:space-around;
+}
