@@ -1,37 +1,40 @@
-# 🎨 Greeting Card Project — CSS Pseudo-Class & Pseudo-Element Practice
+# Greeting Card Project — CSS Pseudo-Class & Pseudo-Element Exploration
 
-## ✨ Overview
-This project is a playful and interactive **Birthday Greeting Card** built with HTML and CSS. It helped me explore and apply various **pseudo-classes** and **pseudo-elements** to enhance user experience and visual design.
+## Project Overview
+This project demonstrates the use of CSS pseudo-classes and pseudo-elements through a responsive and interactive birthday greeting card. It was developed as part of my ongoing practice in front-end development, with a focus on enhancing user experience using pure CSS.
 
-## 🧠 What I Learned
+## Objectives
+- Apply and understand the behavior of common pseudo-classes (`:hover`, `:active`, `:focus`, `:visited`, `:target`)
+- Utilize pseudo-elements (`::before`, `::after`) for decorative and semantic enhancements
+- Implement smooth transitions and basic transformations for interactive feedback
+- Structure a clean, semantic HTML layout styled with modular CSS
 
-### 🔹 Pseudo-Elements
-- `h1::before` and `h1::after` add celebratory emojis around the heading.
-- Injected decorative content without modifying HTML structure.
+## Key Features
 
-### 🔹 Pseudo-Classes
-| Pseudo-Class       | Description |
-|--------------------|-------------|
-| `:hover`           | Adds interactivity when hovering over elements. |
-| `:active`          | Highlights links during click. |
-| `:focus`           | Shows outline for accessibility when focused. |
-| `:visited`         | Changes link color after it's been clicked. |
-| `:target`          | Reveals hidden sections when anchor links are clicked. |
+### Pseudo-Elements
+- `::before` and `::after` used to add celebratory emojis around the heading without modifying HTML content
 
-### 🔹 Transitions & Effects
-- Smooth transitions for hover and background color changes.
-- `transform: scale(1.1)` and `skewX(10deg)` add dynamic motion.
+### Pseudo-Classes
+| Selector        | Functionality |
+|----------------|----------------|
+| `:hover`        | Highlights elements on mouse hover |
+| `:active`       | Indicates active state during click |
+| `:focus`        | Displays outline for accessibility |
+| `:visited`      | Changes link color after navigation |
+| `:target`       | Reveals hidden sections based on anchor link targeting |
 
-## 🧪 Features Demonstrated
-- Responsive layout with centered `.card` and flexbox-based `.card-links`.
-- Interactive links that trigger hidden sections (`#send`, `#share`) using `:target`.
-- Visually engaging hover effects and glowing outlines for focused elements.
+### Transitions & Effects
+- `transform: scale(1.1)` on hover for card enlargement
+- `transform: skewX(10deg)` on section hover for dynamic motion
+- Smooth background color transitions for interactive feedback
 
-## 🧩 Code Structure
-- **HTML**: Semantic structure with `div`, `section`, and anchor tags.
-- **CSS**: Modular styling with emphasis on pseudo-classes/elements and transitions.
+## Technical Stack
+- **HTML5**: Semantic structure using `div`, `section`, and anchor elements
+- **CSS3**: Styling with emphasis on pseudo-selectors, transitions, and layout responsiveness
 
-## 💡 Reflections
-This project helped me understand how **CSS alone** can create rich interactivity and visual feedback. Pseudo-classes and elements are powerful tools for enhancing UX without JavaScript.
+## Learning Outcomes
+This project reinforced my understanding of how CSS pseudo-selectors can be used to create rich, interactive experiences without relying on JavaScript. It also helped me practice clean layout structuring and modular styling techniques.
 
----
+## Author
+**Preksha** — Front-end learner focused on combining algorithmic thinking with creative UI/UX design.
+
