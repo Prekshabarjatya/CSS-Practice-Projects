@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html,body{
+  height:100%;
+  width:100%;
+}
+body{
+  background-color:#f4f4f4;
+margin:30px;
+padding:10px;
+}
+h1{
+  text-align:center;
+  margin-bottom:30px;
+}
+.color-grid{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+}
+.color-box{
+  width:80px;
+  height:80px;
+  border-radius:8px;
+}
+.color1{
+  background-color:#12A7CB;
+}
+.color2{
+  background-color:rgb(203,112,23);
+}
+
+.color3{
+  background-color: aqua
+}
+.color4{
+  background-color:hsl(100, 10%, 67%)
+}
+.color5{
+  background-color:pink;
+}
