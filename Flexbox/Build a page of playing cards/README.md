@@ -1,21 +1,20 @@
-# 🃏 CSS Playing Cards Layout
+# 🃏 CSS Playing Cards Project
 
 A simple **playing cards layout** built with **HTML & CSS Flexbox**.  
-This project was created to practice **flexbox alignment, spacing, and responsive wrapping** while experimenting with card-like UI elements.
+This project was created to practice **flexbox alignment, spacing, and transformations** while experimenting with card-like UI components.
 
 ---
 
 ## 🚀 Features
-- Responsive layout using `flex-wrap` and `justify-content`
-- Card components styled with:
-  - White backgrounds and rounded corners
-  - Borders for definition
-  - Centered suit symbols (♣, ♠, ♥)
-- Pink background for playful contrast 🎀
-- Demonstrates `align-self` variations (`flex-start`, `center`, `flex-end`)
+- **Card components** styled with:
+  - White backgrounds, rounded corners, and borders
+  - Left and right sections for rank + suit
+  - Center section showing the correct number of suit symbols
+- **Flexbox layout** for responsive wrapping and spacing
+- **Mirrored right corner** using `transform: rotateX(180deg) rotateY(180deg)` for authentic card styling
+- Playful **pink background** for contrast 🎀
 
 ---
+<img width="851" height="666" alt="image" src="https://github.com/user-attachments/assets/17361ba9-960c-42cb-b9ba-608d8245740e" />
 
-<img width="851" height="681" alt="image" src="https://github.com/user-attachments/assets/77027c3f-c623-4b59-a33f-4dd1e20eaa8f" />
-
-<img width="1198" height="687" alt="image" src="https://github.com/user-attachments/assets/ccb1cf8e-91e7-4d21-9937-17ba3920c8de" />
+<img width="1913" height="935" alt="image" src="https://github.com/user-attachments/assets/4d47a347-7807-4dd5-ba7f-e0093fe5b602" />
