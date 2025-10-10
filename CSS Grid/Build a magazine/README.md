@@ -42,6 +42,3 @@ This webpage presents the new curriculum of freeCodeCamp in a visually appealing
 
 
 
-
-## Project Structure
-
