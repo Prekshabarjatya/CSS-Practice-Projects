@@ -3,9 +3,7 @@
 A responsive **newspaper-style webpage layout** built using **pure HTML and CSS Grid**.  
 This project focuses on mastering **grid-template-areas**, **grid structure**, and **content positioning** to create a realistic newspaper layout.
 
----
-
-## 🚀 Project Overview  
+## Project Overview  
 
 This project simulates a **newspaper homepage** that includes:  
 - A main **feature article**  
@@ -15,17 +13,14 @@ This project simulates a **newspaper homepage** that includes:
 
 All sections are arranged using **CSS Grid**, demonstrating how grid areas can organize complex layouts effectively.
 
----
-
-## 🧱 Technologies Used  
+## Technologies Used  
 
 - **HTML5** – for semantic structure  
 - **CSS3** – for styling  
 - **CSS Grid** – for responsive and structured layout design  
 
----
 
-## 🗞️ Features  
+## Features  
 
 - Semantic HTML structure (`<main>`, `<article>`, `<figure>`, `<header>`)  
 - Clean grid-based layout using `grid-template-areas`  
@@ -33,9 +28,8 @@ All sections are arranged using **CSS Grid**, demonstrating how grid areas can o
 - Newspaper-like columned sections  
 - Readable, balanced typography and spacing  
 
----
 
-## 🧩 Layout Structure  
+## Layout Structure  
 
 The layout is created using **grid-template-areas**:
 
@@ -46,9 +40,8 @@ Each area corresponds to a section:
 - 🖼️ **Cover Image** – Image with caption  
 - 🏆 **Small Articles** – Additional stories  
 
----
 
-## 🧠 Learnings  
+## Learnings  
 
 Through this project, I learned:  
 - How to use **CSS Grid** to structure complex multi-column layouts  
@@ -57,7 +50,6 @@ Through this project, I learned:
 - Combining **text and imagery** for balanced layouts  
 - Designing a readable, print-style digital layout  
 
----
 
 
 <img width="1899" height="948" alt="image" src="https://github.com/user-attachments/assets/0a60cb10-f716-43f5-b90f-68222ca2a06e" />
